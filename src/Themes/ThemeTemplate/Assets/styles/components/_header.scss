@@ -1,0 +1,31 @@
+@import "../../../node_modules/bootstrap/scss/mixins/_gradients";
+@import '../../../node_modules/bootstrap/scss/mixins/_breakpoints';
+
+.navbar-main {
+	@include gradient-x($start-color: #2C83BC, $end-color: #144C71, $start-percent: 0%, $end-percent: 100%);
+}
+
+.navbar-brand-image {
+	max-height: 3rem;
+}
+
+@include media-breakpoint-up(sm) {
+
+	.navbar-brand-image {
+		max-height: 3.5rem;
+	}
+}
+
+@include media-breakpoint-up(md) {
+
+	.navbar-brand-image {
+		max-height: 4rem;
+	}
+}
+
+@include media-breakpoint-up(xxl) {
+
+	.navbar-brand-image {
+		max-height: 4.5rem;
+	}
+}

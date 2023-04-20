@@ -1,0 +1,15 @@
+@import '../../../node_modules/bootstrap/scss/_variables';
+
+.footer-main {
+	
+}
+
+.footer-main a.nav-link, 
+.footer-main a.nav-link:visited,
+.footer-main a.nav-link:active {
+	color: #BEE5FB !important;
+}
+
+.footer-main a.nav-link:hover {
+	color: $white !important;
+}

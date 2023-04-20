@@ -1,0 +1,54 @@
+@import "../../../node_modules/bootstrap/scss/mixins/_gradients";
+@import '../../../node_modules/bootstrap/scss/mixins/_breakpoints';
+@import '../../../node_modules/bootstrap/scss/_variables';
+
+.hexagon-container {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.hexagon {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: initial; /* we reset the font-size if we want to add some content */
+  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+}
+
+
+.hexagon.feature-node {
+    @include gradient-x($start-color: $primary, $end-color: $secondary, $start-percent: 0%, $end-percent: 100%);
+}
+
+@include media-breakpoint-up(sm) {
+
+  .hexagon.feature-node {
+    width: 5rem !important;
+    height: 5.5rem !important;
+  }
+}
+
+@include media-breakpoint-up(md) {
+
+  .hexagon.feature-node {
+    width: 6rem !important;
+    height: 6.75rem !important;
+  }
+}
+
+@include media-breakpoint-up(md) {
+
+  .hexagon.feature-node {
+    width: 6rem !important;
+    height: 7rem !important;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+
+  .hexagon.feature-node {
+    width: 6.5rem !important;
+    height: 7.5rem !important;
+  }
+}
