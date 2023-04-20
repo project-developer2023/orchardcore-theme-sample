@@ -1,0 +1,122 @@
+@use 'sass:math';
+
+@import "components/_fonts.scss";
+
+/* Here define bootstrap variables */
+
+// define custom colors
+$primary:       #2A81BB;
+$secondary:     #144C71;
+$success:       #198754;
+$info:          #5AA4EF;
+$warning:       #FFC107;
+$danger:        #DC3545;
+$light:         #EDF4FA;
+$dark:          #081B26;
+$white:			#ffffff;
+
+// body
+$body-color:    #4B4C4E;
+$body-bg:		$white;
+$font-family-base: "Lato";
+
+$font-weight-lighter:         lighter;
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-medium:          500;
+$font-weight-semibold:        600;
+$font-weight-bold:            700;
+$font-weight-bolder:          bolder;
+
+// scss-docs-start border-radius-variables
+$border-radius-pill:        50rem !default;
+
+// display
+$display-font-weight:       $font-weight-semibold;
+
+
+// headings
+$headings-color: 			$secondary;
+$headings-font-weight:      $font-weight-semibold;
+
+// $headings-font-family: 		'LatoWebBold';
+// $headings-font-style: normal;
+
+// $enable-rounded: true;
+
+// buttons
+$btn-padding-x: 1.5rem;
+$btn-border-radius:           $border-radius-pill;
+$btn-border-radius-sm:        $border-radius-pill;
+$btn-border-radius-lg:        $border-radius-pill;
+
+// Inputs
+
+$input-border-radius:           $border-radius-pill;
+$input-color:                   #154460;
+$input-placeholder-color:       #aed5ed;
+$input-bg:                      $white;
+
+// Links
+$link-hover-decoration: none;
+
+$enable-shadows: true;
+
+// Navbar
+$navbar-nav-link-padding-x: 2rem;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "components/_utilities.scss";
+@import "components/_flow.scss";
+@import "components/_messages.scss";
+@import "components/_widgets.scss";
+@import "components/_pager.scss";
+@import "components/_taxonomy.scss";
+@import "components/_header.scss";
+@import "components/_footer.scss";
+@import "components/_hexagon.scss";
+
+// Here you can import any custom component as needed.
+
+.bg-white .display-1,
+.bg-white .display-2,
+.bg-white .display-3,
+.bg-white .display-4,
+.bg-white .h1,
+.bg-white .h2,
+.bg-white .h3,
+.bg-white .h4,
+.bg-white .h5,
+.bg-white .h6,
+.text-bg-white .display-1
+.text-bg-white .display-2
+.text-bg-white .display-3
+.text-bg-white .display-4 {
+    color: $dark;
+}
+
+.bg-dark, .text-bg-dark, .btn-dark {
+    color: $white;
+}
+
+.bg-info, .text-bg-info, .btn-info, .text-bg-info a,
+.bg-primary, .text-bg-primary, .btn-primary, .text-bg-primary a,
+.bg-secondary, .text-bg-secondary, .btn-secondary, .text-bg-secondary a,
+.bg-danger, .text-bg-danger, .btn-danger, .text-bg-danger a,
+.bg-success, .text-bg-success, .btn-success, .text-bg-success a,
+.bg-warning, .text-bg-warning, .btn-warning, .text-bg-warning a,
+.bg-dark, .text-bg-dark, .btn-dark, .text-bg-dark a
+{
+    color: $white;
+}
+
+.text-bg-info a:hover, .text-bg-info a:focus, .text-bg-info a:active,
+.text-bg-primary a:hover, .text-bg-primary a:focus, .text-bg-primary a:active,
+.text-bg-secondary a:hover, .text-bg-secondary a:focus, .text-bg-secondary a:active,
+.text-bg-danger a:hover, .text-bg-danger a:focus, .text-bg-danger a:active,
+.text-bg-success a:hover, .text-bg-success a:focus, .text-bg-success a:active,
+.text-bg-warning a:hover, .text-bg-warning a:focus, .text-bg-warning a:active,
+.text-bg-dark a:hover, .text-bg-dark a:focus, .text-bg-dark a:active
+{
+	color: #eeedf0;
+}

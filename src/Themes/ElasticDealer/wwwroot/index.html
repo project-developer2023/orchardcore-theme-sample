@@ -5,18 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="styles/theme.css" />
-
 
       <title>Site Name</title>
    </head>
    <body dir="ltr">
       <header>
          
-<nav class="navbar navbar-expand-md bg-dark py-1 py-md-3 shadow-lg" data-bs-theme="dark">
+<nav class="navbar navbar-expand-md text-bg-primary py-1 py-md-3 navbar-main shadow-lg">
    <div class="container d-flex justify-content-between">
       <a class="navbar-brand text-white" href="~/">
-           Site Name
+           <img src="images/elastic-dealer-logo-white.png" alt="company logo" class="navbar-brand-image" />
       </a>
 
       <div>
@@ -24,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbar">
-             <ul class="navbar-nav" data-bs-theme="dark">
+             <ul class="navbar-nav">
                 <li class="nav-item">
                    <a class="nav-link" href="/">Home</a>
                 </li>
@@ -36,22 +36,23 @@
                    </a>
                    <ul class="dropdown-menu">
                       <li>
-                         <a class="dropdown-item" href="#">Feature 1</a>
+                         <a class="dropdown-item" href="/deal-builder">Deal Builder</a>
                       </li>
                       <li>
-                         <a class="dropdown-item" href="#">Feature 2</a>
+                         <a class="dropdown-item" href="/vehicle-syndication">Vehicle Syndication</a>
                       </li>
                       <li>
-                         <a class="dropdown-item" href="#">Feature 3</a>
+                         <a class="dropdown-item" href="/online-vehicles-listing">Online Vehicles Listing</a>
                       </li>
                       <li>
-                         <a class="dropdown-item" href="#">Feature 4</a>
+                         <a class="dropdown-item" href="/content-management">Content Management</a>
                       </li>
                    </ul>
                 </li>
 
                 <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Company</a>
+                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Company
+                   </a>
                    <ul class="dropdown-menu">
                       <li>
                          <a class="dropdown-item" href="/about">About</a>
@@ -62,6 +63,7 @@
                    </ul>
                 </li>
              </ul>
+             <a class="btn btn-info ms-4" href="/request-demo">Request a Free Demo</a>
       </div>
   </div>
    </div>
@@ -72,15 +74,16 @@
       <main>
 
          <div class="container-fluid">
-            <h1 class="text-center mb-3 mt-5 display-4 text-uppercase">Bootstrap!</h1>
+            <h1 class="text-center mb-3 mt-5 display-4 text-uppercase">Features</h1>
             <p class="text-center mb-5">Proin sed pellentesque elit. Phasellus pharetra imperdiet orci, at dapibus urna scelerisque eget. Curabitur congue auctor commodo. Aliquam ut turpis facilisis, eleifend nibh sit amet, pulvinar magna. Nullam fringilla sodales lorem.</p>
+            
          </div>
 
          <div class="container-fluid bg-light py-5">
 
             <div class="container">
 
-            <h1 class="text-center mb-3 display-4 text-uppercase">Services</h1>
+            <h1 class="text-center mb-3 display-4 text-uppercase">Advantages</h1>
             <p class="text-center mb-5">Proin sed pellentesque elit. Phasellus pharetra imperdiet orci, at dapibus urna scelerisque eget. Curabitur congue auctor commodo. Aliquam ut turpis facilisis, eleifend nibh sit amet, pulvinar magna. Nullam fringilla sodales lorem.</p>
 
                <div class="row row-cols-3 g-3">
@@ -88,7 +91,14 @@
                   <div class="col">
                      <div class="card border border-info-subtle bg-body rounded-0 h-100">
                         
-                        <div class="card-body text-center py-4">                        
+                        <div class="card-body text-center py-4">
+
+                           <div class="hexagon-container mt-3 mb-4">
+                              <div class="hexagon feature-node text-white fs-2">
+                                 <i class="fa-regular fa-square-minus"></i>
+                              </div>
+                           </div>
+                        
                            <h4 class="text-uppercase text-primary mb-3">High Availability</h4>
                            <p>Proin sed pellentesque elit. Phasellus pharetra imperdiet orci, at dapibus urna scelerisque</p>
                         </div>
@@ -99,6 +109,13 @@
                      <div class="card border border-info-subtle bg-body rounded-0 h-100">
 
                         <div class="card-body text-center py-4">
+
+                           <div class="hexagon-container mt-3 mb-4">
+                              <div class="hexagon feature-node text-white fs-2">
+                                 <i class="fa-regular fa-square-minus"></i>
+                              </div>
+                           </div>
+
                            <h4 class="text-uppercase text-primary mb-3">Support & Partnership</h4>
                            <p>Proin sed pellentesque elit. Phasellus pharetra imperdiet orci, at dapibus urna scelerisque</p>
                         </div>
@@ -107,7 +124,13 @@
 
                   <div class="col">
                      <div class="card border border-info-subtle bg-body rounded-0 h-100">
+
                         <div class="card-body text-center mt-3 mb-4">
+                           <div class="hexagon-container my-3">
+                              <div class="hexagon feature-node text-white fs-2">
+                                 <i class="fa-regular fa-square-minus"></i>
+                              </div>
+                           </div>
                            <h4 class="text-uppercase text-primary mb-3">No upfront fees</h4>
                            <p>Proin sed pellentesque elit. Phasellus pharetra imperdiet orci, at dapibus urna scelerisque</p>
                         </div>
@@ -121,13 +144,13 @@
 
       <footer>
          
-<div class="container-fluid text-bg-dark">
+<div class="container-fluid text-bg-dark footer-main">
 
     <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 pb-3">
 
             <div class="col mb-3 lh-lg">
-              <h5>Company</h5>
+              <h5 class="text-info fw-normal">Company</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Home</a></li>
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Features</a></li>
@@ -138,7 +161,7 @@
             </div>
 
             <div class="col mb-3 lh-lg">
-              <h5>Resources</h5>
+              <h5 class="text-info fw-normal">Resources</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Home</a></li>
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Features</a></li>
@@ -149,7 +172,7 @@
             </div>
 
             <div class="col mb-3 lh-lg">
-              <h5>Partners</h5>
+              <h5 class="text-info fw-normal">Partners</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Home</a></li>
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Features</a></li>
@@ -160,16 +183,16 @@
             </div>
 
             <div class="col mb-3 px-4">
-                Company Name!
+                <img src="images/elastic-dealer-logo-white.png" class="img-fluid" alt="Company logo" />
             </div>
 
         </div>
 
         <div class="d-flex flex-column flex-sm-row justify-content-between py-3 border-top">
-          <p class="mb-0">© 2023 Company, Inc. All rights reserved.</p>
+          <p class="text-info mb-0">© 2023 Company, Inc. All rights reserved.</p>
           <ul class="list-unstyled d-flex mb-0">
-            <li class="ms-3 border-end pe-3"><a class="text-info text-decoration-none" href="/#">Privacy Policy</a></li>
-            <li class="ms-3"><a class="text-info text-decoration-none" href="/#">Terms & Conditions</a></li>
+            <li class="ms-3 border-end pe-3"><a class="text-info text-decoration-none" href="/privacy">Privacy Policy</a></li>
+            <li class="ms-3"><a class="text-info text-decoration-none" href="/terms-conditions">Terms & Conditions</a></li>
           </ul>
         </div>
     </div>
@@ -178,8 +201,8 @@
       </footer>
 
 
-      <script src="scripts/site.js"></script>
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="scripts/site.js"></script>
 
    </body>
 </html>

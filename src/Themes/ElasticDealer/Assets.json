@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      "Assets/scripts/site.js"
+    ],
+    "output": "wwwroot/scripts/site.js"
+  },
+  {
+    "inputs": [
+      "Assets/styles/theme.scss"
+    ],
+    "output": "wwwroot/styles/theme.css"
+  },
+  {
+    "inputs": [
+      "Pages/index.html"
+    ],
+    "output": "wwwroot/index.html"
+  }
+]
