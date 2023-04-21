@@ -13,7 +13,7 @@
   },
   {
     "inputs": [
-      "Pages/index.html"
+      "Assets/Pages/index.html"
     ],
     "output": "wwwroot/index.html"
   }
