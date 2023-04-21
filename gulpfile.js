@@ -22,7 +22,8 @@ var fs = require("graceful-fs"),
     postcss = require('gulp-postcss'),
     rtl = require('postcss-rtl'),
     fileinclude = require('gulp-file-include'),
-    babel = require('gulp-babel');
+    babel = require('gulp-babel'),
+    htmlbeautify = require('gulp-html-beautify');
 
 // For compat with older versions of Node.js.
 require("es6-promise").polyfill();
@@ -115,9 +116,15 @@ function getAssetGroups() {
 function resolveAssetGroupPaths(assetGroup, assetManifestPath) {
     assetGroup.manifestPath = assetManifestPath;
     assetGroup.basePath = path.dirname(assetManifestPath);
-    assetGroup.inputPaths = assetGroup.inputs.map(function (inputPath) {
-        return path.resolve(path.join(assetGroup.basePath, inputPath)).replace(/\\/g, '/');
-    });
+    assetGroup.inputPaths = [];
+    
+    if(assetGroup.inputs && !Array.isArray(assetGroup.inputs)) {
+        assetGroup.inputPaths.push(path.resolve(path.join(assetGroup.basePath, assetGroup.inputs)).replace(/\\/g, '/'));
+    } else {
+        assetGroup.inputPaths = assetGroup.inputs.map(function (inputPath) {
+            return path.resolve(path.join(assetGroup.basePath, inputPath)).replace(/\\/g, '/');
+        });
+    }
     assetGroup.watchPaths = [];
     if (!!assetGroup.watch) {
         assetGroup.watchPaths = assetGroup.watch.map(function (watchPath) {
@@ -252,6 +259,10 @@ function buildHtmlPipeline(assetGroup, doConcat, doRebuild) {
               prefix: '@@',
               basepath: '@file'
             }))
+        .pipe(htmlbeautify({
+            'preserve_newlines': false,
+            'end_with_newline': true
+        }))
         .pipe(gulp.dest(assetGroup.outputDir));
 }
 

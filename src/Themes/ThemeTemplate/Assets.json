@@ -6,15 +6,28 @@
     "output": "wwwroot/scripts/site.js"
   },
   {
+    "watch": [
+      "Assets/styles/components/_flow.scss",
+      "Assets/styles/components/_fonts.scss",
+      "Assets/styles/components/_messages.scss",
+      "Assets/styles/components/_pager.scss",
+      "Assets/styles/components/_taxonomy.scss",
+      "Assets/styles/components/_utilities.scss",
+      "Assets/styles/components/_widgets.scss"
+    ],
     "inputs": [
       "Assets/styles/theme.scss"
     ],
     "output": "wwwroot/styles/theme.css"
   },
   {
-    "inputs": [
-      "Assets/Pages/index.html"
+    "watch": [
+      "Assets/pages/_head.html",
+      "Assets/pages/_foot.html",
+      "Assets/pages/_header.html",
+      "Assets/pages/_footer.html"
     ],
+    "inputs": "Assets/Pages/index.html",
     "output": "wwwroot/index.html"
   }
 ]
