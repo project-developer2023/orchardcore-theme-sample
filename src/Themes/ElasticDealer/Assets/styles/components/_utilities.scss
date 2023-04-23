@@ -9,3 +9,12 @@
 .fs-9 {
     font-size: .70rem !important;
 }
+
+.bg-gray {
+    background-color: #8D8E90;
+}
+
+.text-bg-gray {
+    @extend .bg-gray;
+    color: #EDF4FA !important;
+}
