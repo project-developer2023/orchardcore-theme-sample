@@ -34,7 +34,6 @@ $border-radius-pill:            50rem !default;
 // display
 $display-font-weight:           $font-weight-semibold;
 
-
 // headings
 $headings-color: 			    $secondary;
 $headings-font-weight:          $font-weight-semibold;
@@ -57,11 +56,10 @@ $input-border-radius:           $border-radius-pill;
 $input-color:                   #154460;
 $input-placeholder-color:       #aed5ed;
 $input-bg:                      $white;
+$input-group-addon-bg:          $white;
 
 // Links
 $link-hover-decoration:         none;
-
-$enable-shadows:                true;
 
 // Navbar
 $navbar-nav-link-padding-x:     2rem;
@@ -93,7 +91,12 @@ $navbar-nav-link-padding-x:     2rem;
 .text-bg-white .display-2
 .text-bg-white .display-3
 .text-bg-white .display-4 {
-    color: $dark !important;
+    @if $body-bg == $white {
+        color: $body-color !important;
+    } 
+    @else {
+        color: $dark !important;
+    }
 }
 
 .bg-dark, .text-bg-dark, .btn-dark {

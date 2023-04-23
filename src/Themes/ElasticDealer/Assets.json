@@ -42,5 +42,15 @@
     ],
     "inputs": "Assets/Pages/features.html",
     "output": "wwwroot/features.html"
+  },
+  {
+    "watch": [
+      "Assets/pages/_head.html",
+      "Assets/pages/_foot.html",
+      "Assets/pages/_header.html",
+      "Assets/pages/_footer.html"
+    ],
+    "inputs": "Assets/Pages/demo.html",
+    "output": "wwwroot/demo.html"
   }
 ]
