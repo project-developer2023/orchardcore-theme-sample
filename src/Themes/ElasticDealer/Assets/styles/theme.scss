@@ -87,16 +87,32 @@ $navbar-nav-link-padding-x:     2rem;
 .bg-white .h4,
 .bg-white .h5,
 .bg-white .h6,
+.text-bg,
+.text-bg-white,
 .text-bg-white .display-1
 .text-bg-white .display-2
 .text-bg-white .display-3
 .text-bg-white .display-4 {
-    @if $body-bg == $white {
-        color: $body-color !important;
-    } 
-    @else {
-        color: $dark !important;
-    }
+    color: $body-color !important;
+}
+
+.bg-light .display-1,
+.bg-light .display-2,
+.bg-light .display-3,
+.bg-light .display-4,
+.bg-light .h1,
+.bg-light .h2,
+.bg-light .h3,
+.bg-light .h4,
+.bg-light .h5,
+.bg-light .h6,
+.bg-light,
+.text-bg-light,
+.text-bg-light .display-1
+.text-bg-light .display-2
+.text-bg-light .display-3
+.text-bg-light .display-4 {
+    color: $body-color !important;
 }
 
 .bg-dark, .text-bg-dark, .btn-dark {
