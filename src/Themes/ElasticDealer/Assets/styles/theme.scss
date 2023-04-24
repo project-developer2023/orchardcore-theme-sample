@@ -71,12 +71,14 @@ $navbar-nav-link-padding-x:     2rem;
 @import "components/_widgets.scss";
 @import "components/_pager.scss";
 @import "components/_taxonomy.scss";
-@import "components/_header.scss";
+@import "components/_index.scss";
 @import "components/_footer.scss";
 @import "components/_hexagon.scss";
+@import "components/_header.scss";
+@import "components/_demo.scss";
+
 
 // Here you can import any custom component as needed.
-
 
 .text-bg,
 .text-bg-white {

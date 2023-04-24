@@ -16,7 +16,6 @@
   clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
 }
 
-
 .hexagon.feature-node {
     @include gradient-x($start-color: $primary, $end-color: $secondary, $start-percent: 0%, $end-percent: 100%);
 }
@@ -26,14 +25,6 @@
   .hexagon.feature-node {
     width: 5rem !important;
     height: 5.5rem !important;
-  }
-}
-
-@include media-breakpoint-up(md) {
-
-  .hexagon.feature-node {
-    width: 6rem !important;
-    height: 6.75rem !important;
   }
 }
 

@@ -16,7 +16,9 @@
       "Assets/styles/components/_widgets.scss",
       "Assets/styles/components/_footer.scss",
       "Assets/styles/components/_header.scss",
-      "Assets/styles/components/_hexagon.scss"
+      "Assets/styles/components/_hexagon.scss",
+      "Assets/styles/components/_index.scss",
+      "Assets/styles/components/_demo.scss"
     ],
     "inputs": [
       "Assets/styles/theme.scss"
