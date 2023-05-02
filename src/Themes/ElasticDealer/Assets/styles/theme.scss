@@ -5,7 +5,7 @@
 /* Here define bootstrap variables */
 
 // define custom colors
-$primary:                       #2A81BB;
+$primary:                       #bb2a51;
 $secondary:                     #144C71;
 $success:                       #198754;
 $info:                          #5AA4EF;
@@ -75,7 +75,7 @@ $navbar-nav-link-padding-x:     2rem;
 @import "components/_header.scss";
 @import "components/_hexagon.scss";
 @import "components/_index.scss";
-@import "components/_demo.scss";
+
 
 // Here you can import any custom component as needed.
 
