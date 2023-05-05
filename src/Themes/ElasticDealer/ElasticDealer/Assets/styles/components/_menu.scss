@@ -1,5 +1,4 @@
 
-@import '../../../node_modules/bootstrap/scss/mixins/_breakpoints';
 
 a{
     transition: all 0.3s ease-in-out;
@@ -168,7 +167,7 @@ a#skip-to-main-content {
   }
   
   header.sticky nav#ddmenu-extra {
-    margin: 2px !important;
+    margin: 0 !important;
   }
   @media only screen and (min-width: 768px) {
     header.sticky a.logo {
@@ -182,7 +181,7 @@ a#skip-to-main-content {
     header.sticky.in {
       position: fixed;
       /* transform: translate(0%, 0%); */
-      box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     }
   }
   
@@ -800,14 +799,14 @@ nav.ddmenu > ul li ul {width: 200px;}
 
 .hdrmnu li a {font-size: 15px;line-height: 22px;}
 .hdrmnu li {margin-right: 40px;}
-.hdrlgo {width: 160px;}
+.hdrlgo {width: 205px;}
 .headersec {padding: 15px 0;}
 
 
 nav.ddmenu > ul li ul {width: 180px;}
 
 .headersec {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 .hderRght .pageBtns {
   margin-left: 40px;
@@ -865,7 +864,9 @@ nav.ddmenu{padding-right: 12px;}
 .hdrmnu li:hover a{
   color: #154460;
 }
-
+.hdrlgo {
+  width: 175px;
+}
 
 
 

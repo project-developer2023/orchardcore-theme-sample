@@ -4,7 +4,6 @@ a{
     -moz-transition: all 0.3s ease-in-out;
 	text-decoration: none;
 }
-
 .foterSec{
 	width: 100%; position: relative;
 	background: url(../images/foterShape1.png) no-repeat top left, url(../images/foterShape2.png) no-repeat top center, url(../images/foterShape3.png) no-repeat right top;
@@ -24,7 +23,7 @@ a{
 .ftrlink{
 	width: 100%;
 	h3{
-		color: #5AA4EF; letter-spacing: -0.04em; font-weight: 500; font-size: 26px; line-height: 30px; margin: 0 0 35px;
+		color: #5AA4EF; letter-spacing: -0.04em; font-weight: 500; font-size: 26px; line-height: 30px; margin: 0 0 25px;
 	}
 	ul{
 		width: 100%; display: inline-block;
@@ -86,26 +85,25 @@ a{
 }
 
 
-
-
-
-
 @media screen and (min-width:1600px) {
 
+}
 
+@media (min-width: 1800px) and (max-width: 1899px) {
 
-
-
+.foterCar {
+	bottom: 13px;
+	width: 380px;
+}
 
 
 }
 
-
 @media (min-width: 1700px) and (max-width: 1799px) {
 
 .foterCar {
-	bottom: 12px;
-	width: 359px;
+	bottom: 20px;
+	width: 330px;
 }
 
 
@@ -121,7 +119,6 @@ a{
 
 }
 
-
 @media only screen and (max-width: 1599px) {
 
 
@@ -135,9 +132,6 @@ a{
 	width: 215px;
   }
 
-
-
-
 }
 
 @media only screen and (max-width: 1199px) {
@@ -147,12 +141,9 @@ a{
 	width: 170px;
 }
 
-
 }
 
-
 @media only screen and (max-width: 991px) {
-
 
 	.foterTop{
 		.row > div:nth-child(1){
@@ -198,8 +189,6 @@ a{
 	  }
 	
 
-
-
 }
 
 @media only screen and (max-width: 767px){
@@ -217,7 +206,6 @@ a{
 	.foterBtm {
 		padding: 16px 0;}
 	
-
 
 
 }
@@ -262,9 +250,4 @@ a{
 
 
 
-
 }
-	
-
-
-

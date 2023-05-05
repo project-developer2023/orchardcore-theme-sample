@@ -7,6 +7,17 @@
   },
   {
     "watch": [
+      "node_modules/particles.js/particles.js",
+      "Assets/scripts/particle.js"
+    ],
+    "inputs": [
+      "node_modules/particles.js/particles.js",
+      "Assets/scripts/particle.js"
+    ],   
+    "output": "wwwroot/scripts/particles.js"
+  },
+  {
+    "watch": [
       "Assets/styles/components/_flow.scss",
       "Assets/styles/components/_fonts.scss",      
       "Assets/styles/components/_messages.scss",
@@ -15,7 +26,7 @@
       "Assets/styles/components/_utilities.scss",
       "Assets/styles/components/_widgets.scss",
       "Assets/styles/components/_footer.scss",
-      "Assets/styles/components/_header.scss",
+      "Assets/styles/components/_menu.scss",
       "Assets/styles/components/_hexagon.scss",
       "Assets/styles/components/_index.scss",
       "Assets/styles/components/_home.scss"

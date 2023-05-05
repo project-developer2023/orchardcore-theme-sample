@@ -1,7 +1,5 @@
 @use 'sass:math';
-
 @import "components/_fonts.scss";
-
 /* Here define bootstrap variables */
 
 // define custom colors
@@ -64,6 +62,20 @@ $link-hover-decoration:         none;
 // Navbar
 $navbar-nav-link-padding-x:     2rem;
 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+
+);
+
+
+
+
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "components/_utilities.scss";
 @import "components/_flow.scss";
@@ -72,7 +84,7 @@ $navbar-nav-link-padding-x:     2rem;
 @import "components/_pager.scss";
 @import "components/_taxonomy.scss";
 @import "components/_footer.scss";
-@import "components/_header.scss";
+@import "components/_menu.scss";
 @import "components/_hexagon.scss";
 @import "components/_index.scss";
 @import "components/_home.scss";
@@ -115,3 +127,9 @@ $navbar-nav-link-padding-x:     2rem;
 {
 	color: #eeedf0 !important;
 }
+
+
+
+
+
+
