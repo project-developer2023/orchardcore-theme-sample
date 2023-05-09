@@ -1,0 +1,326 @@
+
+.partner_hand{
+    .managemntmain{
+        background: #2A81BB; padding: 94px 0 109px;
+    }
+    .managemntpnl{      
+        justify-content: flex-start;  
+        .features_cont{
+            h3{
+                color: #FFFFFF;
+                > span{
+                    background: url(../images/features_frame_white.png) no-repeat 0 0; color: #154460;
+                }
+            }
+            p{
+                color: #FFFFFF;
+            }
+            .lernBtn{
+                background: #FFFFFF; color: #2A81BB;
+                &:hover{
+                    background: #154460; color: #FFFFFF;
+                }
+            }
+        }
+    }
+    .managemntimg{
+        left: inherit; right: 0;
+        img{
+            height: auto;
+        }
+    }
+}
+
+.fees_Sec{
+    padding: 108px 0 80px; width: 100%;
+}
+.feespnl{
+    display: flex; align-items: flex-start; justify-content: space-between;
+}
+.feeslft{
+    max-width: 688px; width: 100%;
+    > .row{
+        margin: 0 -20px;
+        > div{
+            padding: 0 20px;
+        }
+    }
+}
+.feesbx{
+    width: 100%; background: #EDF4FA; min-height: 364px; padding: 40px 30px 20px; text-align: center;
+    p{
+        color: #154460; letter-spacing: -0.03em; font-weight: 500; font-size: 18px; line-height: 26px;
+    }
+    h3{
+        color: #154460; letter-spacing: -0.02em; font-weight: 600; font-size: 26px; line-height: 31px; margin: 37px 0 20px;
+    }
+    > span{
+        color: #154460; font-size: 68px;
+    }
+}
+.Cloud_Sec{
+    padding: 30px 0;
+    .builderpnl{
+        flex-direction: inherit; padding: 0; align-items: flex-start;
+        .builderimg{
+            margin-left: 25px;
+        }
+        .features_cont{
+            max-width: 695px; padding: 35px 0 0;
+            ul{
+                margin: 0; list-style-type: none; width: 100%; display: inline-block; padding: 15px 0 0;
+                li{
+                    color: #6D7384; letter-spacing: -0.03em; font-weight: 500; font-size: 18px; line-height: 24px;
+                    display: flex; width: 50%; float: left; align-items: baseline; margin: 0 0 20px;
+                    > em{
+                        font-style: normal;
+                    }
+                    > span{
+                        background: #154460; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;
+                        border-radius: 100%; font-size: 11px; color: #FFFFFF; margin: 0 12px 0 0;
+                    }
+                }
+            }
+        }
+    }    
+}
+
+
+
+
+
+@media (min-width: 1700px) and (max-width: 1799px) {
+
+.partner_hand {
+    .managemntmain {
+        padding: 75px 0;
+    }
+}
+    
+
+}
+
+@media (min-width: 1600px) and (max-width: 1699px) {
+
+.partner_hand {
+    .managemntmain {
+        padding: 50px 0;
+    }
+}
+    
+
+}
+
+
+@media only screen and (max-width: 1599px) {
+
+.partner_hand {
+    .managemntmain {
+        padding: 45px 0;
+    }
+}
+.Cloud_Sec {
+	.builderpnl {
+		.features_cont {
+			max-width: 620px;
+			padding: 35px 0 0;
+		}
+	}
+}
+.Cloud_Sec {
+	.builderpnl {
+		.features_cont {
+			ul {
+				li {
+					font-size: 16px;
+					line-height: 22px;
+				}
+			}
+		}
+	}
+}
+.Cloud_Sec {
+	.builderpnl {
+		.features_cont {
+			ul {
+				li {
+					& > span {
+						width: 20px;
+						height: 20px;
+						font-size: 10px;
+						margin: 0 10px 0 0;
+					}
+				}
+			}
+		}
+	}
+}
+.Cloud_Sec {
+    padding: 30px 0;
+}
+.fees_Sec {
+    padding: 70px 0;
+}
+.feeslft {
+	& > .row {
+		margin: 0 -12px;
+	}
+}
+.feeslft {
+	& > .row {
+		& > div {
+			padding: 0 12px;
+		}
+	}
+}
+.feesbx {
+	h3 {
+		font-size: 20px;
+		line-height: 25px;
+		margin: 30px 0 15px;
+	}
+}
+.feeslft {
+    max-width: 550px;
+}
+.feesbx {
+	p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+}
+.feesbx {
+    min-height: 315px;
+    padding: 25px;
+}
+
+.partner_hand .managemntimg{
+    top: auto;
+    bottom: 0;
+}
+
+
+}
+
+@media (min-width: 1400px) and (max-width: 1598px) {
+
+
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+.fees_Sec {
+    padding: 55px 0;
+}
+.feeslft {
+    max-width: 430px;
+}
+.feesbx {
+    min-height: 280px;
+    padding: 10px;
+}
+.feesbx > span {
+    font-size: 55px;
+}
+.feesbx {
+	h3 {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 18px 0 12px;
+	}
+}
+.Cloud_Sec {
+	.builderpnl {
+		.builderimg {
+			margin-left: 0;
+		}
+	}
+}
+.Cloud_Sec {
+	.builderpnl {
+		.features_cont {
+			ul {
+				li {
+					margin: 0 0 15px;
+                    padding: 0 7px 0 0;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 991px) {
+
+
+.fees_Sec{padding: 40px 0;}
+.feespnl {
+    flex-direction: column;
+    .features_cont{
+        padding: 20px 0 0; max-width: 100%;
+    }
+}
+.feeslft {
+    max-width: 100%;
+}
+.feesbx {
+    min-height: 240px;
+    padding: 20px;
+}
+.Cloud_Sec {
+	.builderpnl {
+		.features_cont {
+			ul {
+				li {
+					width: 100%;
+					padding: 0;
+				}
+			}
+		}
+	}
+}
+.Cloud_Sec {
+	.builderpnl {
+		.features_cont {
+			ul {
+				padding: 8px 0 0;
+			}
+		}
+	}
+}
+
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+
+
+
+}
+
+@media only screen and (max-width: 575px){
+
+.feesbx{
+    margin: 25px 0 0; min-height: auto;
+}
+.fees_Sec {
+    padding: 10px 0 35px;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 480px){ 
+
+
+}
