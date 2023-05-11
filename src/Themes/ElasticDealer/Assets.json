@@ -25,14 +25,10 @@
       "Assets/styles/components/_taxonomy.scss",
       "Assets/styles/components/_utilities.scss",
       "Assets/styles/components/_widgets.scss",
-      "Assets/styles/components/_footer.scss",
       "Assets/styles/components/_menu.scss",
       "Assets/styles/components/_hexagon.scss",
       "Assets/styles/components/_index.scss",
-      "Assets/styles/components/_home.scss",
-      "Assets/styles/components/_demo.scss",
-      "Assets/styles/components/_features.scss",
-      "Assets/styles/components/_advantage.scss"
+      "Assets/styles/components/_home.scss"
     ],
     "inputs": [
       "Assets/styles/theme.scss"

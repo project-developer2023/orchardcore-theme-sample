@@ -239,7 +239,16 @@ img{
 }
 
 
+.fetures_request_sec .requestDemopnl {
+  justify-content: flex-start;
+}
+.fetures_request_sec .requestDemopnl .requestDemoimg {
+  left: auto;
+  right: 20%;
+}
 
+
+.hand_advange{width: auto;}
 
 
 
@@ -274,6 +283,8 @@ img{
 .fetureslst > .row > div:nth-child(4) .feturesbx{
     margin-right: -15px;
 }
+
+.hand_advange{width: 800px;}
 
 }
 
@@ -507,6 +518,16 @@ img{
   padding: 55px 0 50px;
 }
 
+.fetures_request_sec .requestDemopnl .requestDemoimg {
+  right: 13%;
+}
+
+.hand_advange {width: 560px;height: auto !important;bottom: 0 !important;top: auto !important;}
+.hand_advange img{height: auto !important;}
+
+.support_pnel .fs-5{font-size: 15px !important;}
+.support_pnel > div{padding: 21px 0 !important;}
+
 
 }
 
@@ -702,10 +723,12 @@ img{
 }
 
 
+.fetures_request_sec .requestDemopnl .requestDemoimg {
+  right: 13%;
+}
 
 
-
-
+.hand_advange {width: 500px;}
 
 
 }
@@ -808,6 +831,11 @@ img{
   }
 
 
+.fetures_request_sec .requestDemopnl .requestDemoimg {
+  right: 4%;
+}
+
+
 
 
 }
@@ -884,7 +912,9 @@ img{
     width: 235px;
   }
   
-
+  .fetures_request_sec .requestDemopnl .requestDemoimg {
+    right: -5%;
+  }
 
 
 

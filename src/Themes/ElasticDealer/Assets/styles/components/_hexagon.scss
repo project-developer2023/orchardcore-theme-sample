@@ -20,11 +20,27 @@
     @include gradient-x($start-color: $primary, $end-color: $secondary, $start-percent: 0%, $end-percent: 100%);
 }
 
+@include media-breakpoint-down(sm) {
+
+  .hexagon.feature-node {
+    width: 5rem !important;
+    height: 5.5rem !important;
+  }
+  .hexagon.feature-node-small {
+    width: 45px !important;
+    height: 55px !important;
+  }
+}
+
 @include media-breakpoint-up(sm) {
 
   .hexagon.feature-node {
     width: 5rem !important;
     height: 5.5rem !important;
+  }
+  .hexagon.feature-node-small {
+    width: 45px !important;
+    height: 55px !important;
   }
 }
 
@@ -34,6 +50,10 @@
     width: 6rem !important;
     height: 7rem !important;
   }
+  .hexagon.feature-node-small {
+    width: 55px !important;
+    height: 65px !important;
+  }
 }
 
 @include media-breakpoint-up(lg) {
@@ -41,5 +61,9 @@
   .hexagon.feature-node {
     width: 6.5rem !important;
     height: 7.5rem !important;
+  }
+  .hexagon.feature-node-small {
+    width: 60px !important;
+    height: 70px !important;
   }
 }

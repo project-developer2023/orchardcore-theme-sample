@@ -30,6 +30,10 @@ $font-weight-bolder:            bolder;
 
 // scss-docs-start border-radius-variables
 $border-radius-pill:            50rem !default;
+$border-radius-xxl:             2rem !default;
+$input-border-radius:           $border-radius-xxl;
+$input-border-radius-lg:        $border-radius-xxl;
+
 
 // display
 $display-font-weight:           $font-weight-semibold;
@@ -72,13 +76,6 @@ $grid-breakpoints: (
   xl: 1200px,
   xxl: 1400px,
 
-//   xxxl: 1600px,
-//   xxxl1: 1699px,
-//   xxxl2: 1599px,
-//   xxxl3: 1598px,
-//   sm2: 767px,
-//   xs2: 480px
-
 );
 
 
@@ -92,14 +89,10 @@ $grid-breakpoints: (
 @import "components/_widgets.scss";
 @import "components/_pager.scss";
 @import "components/_taxonomy.scss";
-@import "components/_footer.scss";
 @import "components/_menu.scss";
 @import "components/_hexagon.scss";
 @import "components/_index.scss";
 @import "components/_home.scss";
-@import "components/_demo.scss";
-@import "components/_features.scss";
-@import "components/_advantage.scss";
 
 // Here you can import any custom component as needed.
 
