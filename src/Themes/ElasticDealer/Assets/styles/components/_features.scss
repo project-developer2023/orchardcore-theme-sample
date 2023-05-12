@@ -1,0 +1,74 @@
+@import '../../../node_modules/bootstrap/scss/mixins/_breakpoints';
+
+.features-rd-person-container {
+	  display: flex;
+	  align-items: top;
+	  justify-content: right;
+}
+
+	.features-rd-person-container .features-rd-person {
+		margin-top: -7rem;
+		max-width: 75vw;
+	}
+
+@include media-breakpoint-up(sm) {
+
+	.features-rd-person-container .features-rd-person {
+		margin-top: -7.5rem;
+		max-width: 65vw;
+	}
+}
+
+@include media-breakpoint-up(md) {
+	.features-rd-person-container {
+		justify-content: center;
+	}
+
+	.features-rd-person-container .features-rd-person {
+		margin-top: -8.5rem;
+		max-width: 55vw;
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	.features-rd-person-container {
+		justify-content: center;
+	}
+
+	.features-rd-person-container .features-rd-person {
+		margin-top: -6rem;
+		max-width: 55vw;
+		padding-right: 6rem;
+	}
+}
+
+@include media-breakpoint-up(xl) {
+	.features-rd-person-container {
+		justify-content: left;
+	}
+
+	.features-rd-person-container .features-rd-person {
+		margin-top: -5.5rem;
+		max-width: 35vw;
+		padding-right: 0;
+	}
+}
+
+@include media-breakpoint-up(xxl) {
+
+	.features-rd-person-container {
+		justify-content: left;
+	}
+
+	.features-rd-person-container .features-rd-person {
+		max-width: 28vw;
+		padding-right: 0;
+	}
+}
+
+@include media-breakpoint-up(xxxl) {
+
+	.features-rd-person-container .features-rd-person {
+		max-width: 25vw;
+	}
+}

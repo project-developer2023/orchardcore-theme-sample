@@ -6,133 +6,140 @@
       <title>Site Name</title>
    </head>
    <body dir="ltr">
-      <div class="header_iner">
-         @@include('./_header.html')
-      </div>
-      
+      <header class="shadow-xl text-bg-primary navbar-main">
+         <div class="h-100">
+            @@include('./_header.html')
+         </div>
+      </header>
+
       <main id="main">
 
-         <div class="bannerSec inr_Bner">
-            <div id="particles-js"></div>
+         <div class="container mb-3 mt-5">
+            <nav aria-label="breadcrumb">
+               <ol class="breadcrumb mb-0">
+                 <li class="breadcrumb-item"><a href="#">Home</a></li>
+                 <li class="breadcrumb-item active" aria-current="page">Request a demo</li>
+               </ol>
+             </nav>
          </div>
 
-         <div class="container text-center my-5">
-            <h1 class="display-3 text-uppercase py-4 col-12 offset-md-1 col-md-10 offset-xl-2 col-xl-8">Request a Free ELASTIC DEALER Demo</h1>
-            <section class="fs-4 mb-5">
-               <p>Seeing is believing! Schedule a live demo with one of our product specialists at your convenience. We can learn about your requirements, answer questions, and review ways Elastic Dealer can help you and your organization.</p>
-               <p>Please submit your information below and we will be in touch shortly to set up a live demo.</p>
-            </section>
-         </div>
-
-         <div class="container">
-            <div class="row">
-
-               <div class="d-none d-md-flex col-md-5 align-items-end px-lg-5">
-                  <img src="images/request-form-img.png" alt="" class="img-fluid" />
-               </div>
-
-               <div class="col-12 col-md-7">
-                  <form>
-                     <div class="text-bg-primary rounded mb-5 px-3 px-xl-5 py-5">
-
-                        <div class="mb-3">
-                           <label class="visually-hidden">Name</label>
-                           <div class="input-group input-group-lg">
-                             <span class="input-group-text" id="name-icon"><span class="icon-Vector11"></span></span>
-                             <input type="text" class="form-control border-start-0" placeholder="Name" aria-label="Name" aria-describedby="name-icon" />
-                           </div>
-                        </div>
-
-                        <div class="mb-3">
-                           <label class="visually-hidden">Phone Number</label>
-                           <div class="input-group input-group-lg">
-                             <span class="input-group-text" id="phone-number-icon"><span class="icon-Vector12"></span></span>
-                             <input type="tel" class="form-control border-start-0" placeholder="Phone Number" aria-label="Phone Number" aria-describedby="phone-number-icon" />
-                           </div>
-                        </div>
-
-                        <div class="mb-3">
-                           <label class="visually-hidden">Email Address</label>
-                           <div class="input-group input-group-lg">
-                             <span class="input-group-text" id="email-icon"><span class="icon-Vector13"></span></span>
-                             <input type="email" class="form-control border-start-0" placeholder="Email address" aria-label="Email Address" aria-describedby="email-icon" />
-                           </div>
-                        </div>
-
-                        <div class="mb-3">
-                           <label class="visually-hidden">Organization Name</label>
-                           <div class="input-group input-group-lg">
-                             <span class="input-group-text" id="organization-name-icon"><span class="icon-Vector14"></span></span>
-                             <input type="text" class="form-control border-start-0" placeholder="Organization name" aria-label="Organization Name" aria-describedby="organization-name-icon" />
-                           </div>
-                        </div>
-
-                        <div class="mb-3">
-                           <label class="visually-hidden">Number of Locations</label>
-                           <div class="input-group input-group-lg">
-                             <span class="input-group-text" id="number-of-locations-icon"><span class="icon-Vector15"></span></span>
-                             <input type="number" class="form-control border-start-0" placeholder="Number of locations" aria-label="Organization Name" aria-describedby="number-of-locations-icon" />
-                           </div>
-                        </div>
-
-                        <div class="mb-3">
-                           <label class="visually-hidden">Country</label>
-                           <div class="input-group input-group-lg">
-                             <span class="input-group-text" id="country-icon"><span class="icon-Vector16"></span></span>
-                             <input type="text" class="form-control border-start-0" placeholder="Country" aria-label="Country" aria-describedby="country-icon" />
-                           </div>
-                        </div>
-
-                        <div class="mb-3">
-                           <label class="visually-hidden">Comments</label>
-                           <div class="input-group input-group-lg">
-                             <span class="input-group-text pt-3 align-items-start" id="comments-icon"><span class="icon-Vector17"></span></span>
-                             <textarea type="text" rows="4" class="form-control border-start-0" placeholder="Comments" aria-label="Comments" aria-describedby="comments-icon"></textarea>
-                           </div>
-                        </div>
-
-                        <p class="text-center">
-                           By submitting the form, I agree to the <a href="#url" class="link-light text-decoration-underline">Privacy Policy.</a>
-                        </p>
-
-                        <div class="text-end">
-                           <button type="submit" value="Submit" class="btn btn-secondary btn-lg">
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <div class="me-5">Submit</div>
-                                 <i class="fa-solid fa-paper-plane"></i>
-                              </div>
-                           </button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
+            <div class="container text-center mb-5">
+               <h1 class="display-3 text-uppercase py-4 col-12 offset-md-1 col-md-10 offset-xl-2 col-xl-8">Request a Free ELASTIC DEALER Demo</h1>
+               <section class="fs-4 mb-5">
+                  <p>Seeing is believing! Schedule a live demo with one of our product specialists at your convenience. We can learn about your requirements, answer questions, and review ways Elastic Dealer can help you and your organization.</p>
+                  <p>Please submit your information below and we will be in touch shortly to set up a live demo.</p>
+               </section>
             </div>
-         </div>
 
-         <div class="container-fluid text-bg-light">
             <div class="container">
-               <div class="row py-3">
+               <div class="row">
 
-                  <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-                     <div>
-                        <h3 class="display-4">Questions?</h3>
-                        <p class="fs-5">Give us a call at <a href="tel:18008008000">+1800-800-8000</a></p>
-                     </div>
+                  <div class="d-none d-md-flex col-md-5 align-items-end px-lg-5">
+                     <img src="images/request-form-img.png" alt="" class="img-fluid" />
                   </div>
 
-                  <div class="col-12 col-md-6">
-                     <img src="images/question-image.jpg" alt="" class="img-fluid rounded" />
-                  </div>
+                  <div class="col-12 col-md-7">
+                     <form>
+                        <div class="text-bg-primary rounded mb-5 px-3 px-xl-5 py-5">
 
+                           <div class="mb-3">
+                              <label class="visually-hidden">Name</label>
+                              <div class="input-group input-group-lg">
+                                <span class="input-group-text" id="name-icon"><span class="icon-Vector11"></span></span>
+                                <input type="text" class="form-control border-start-0" placeholder="Name" aria-label="Name" aria-describedby="name-icon" />
+                              </div>
+                           </div>
+
+                           <div class="mb-3">
+                              <label class="visually-hidden">Phone Number</label>
+                              <div class="input-group input-group-lg">
+                                <span class="input-group-text" id="phone-number-icon"><span class="icon-Vector12"></span></span>
+                                <input type="tel" class="form-control border-start-0" placeholder="Phone Number" aria-label="Phone Number" aria-describedby="phone-number-icon" />
+                              </div>
+                           </div>
+
+                           <div class="mb-3">
+                              <label class="visually-hidden">Email Address</label>
+                              <div class="input-group input-group-lg">
+                                <span class="input-group-text" id="email-icon"><span class="icon-Vector13"></span></span>
+                                <input type="email" class="form-control border-start-0" placeholder="Email address" aria-label="Email Address" aria-describedby="email-icon" />
+                              </div>
+                           </div>
+
+                           <div class="mb-3">
+                              <label class="visually-hidden">Organization Name</label>
+                              <div class="input-group input-group-lg">
+                                <span class="input-group-text" id="organization-name-icon"><span class="icon-Vector14"></span></span>
+                                <input type="text" class="form-control border-start-0" placeholder="Organization name" aria-label="Organization Name" aria-describedby="organization-name-icon" />
+                              </div>
+                           </div>
+
+                           <div class="mb-3">
+                              <label class="visually-hidden">Number of Locations</label>
+                              <div class="input-group input-group-lg">
+                                <span class="input-group-text" id="number-of-locations-icon"><span class="icon-Vector15"></span></span>
+                                <input type="number" class="form-control border-start-0" placeholder="Number of locations" aria-label="Organization Name" aria-describedby="number-of-locations-icon" />
+                              </div>
+                           </div>
+
+                           <div class="mb-3">
+                              <label class="visually-hidden">Country</label>
+                              <div class="input-group input-group-lg">
+                                <span class="input-group-text" id="country-icon"><span class="icon-Vector16"></span></span>
+                                <input type="text" class="form-control border-start-0" placeholder="Country" aria-label="Country" aria-describedby="country-icon" />
+                              </div>
+                           </div>
+
+                           <div class="mb-3">
+                              <label class="visually-hidden">Comments</label>
+                              <div class="input-group input-group-lg">
+                                <span class="input-group-text pt-3 align-items-start" id="comments-icon"><span class="icon-Vector17"></span></span>
+                                <textarea type="text" rows="4" class="form-control border-start-0" placeholder="Comments" aria-label="Comments" aria-describedby="comments-icon"></textarea>
+                              </div>
+                           </div>
+
+                           <p class="text-center">
+                              By submitting the form, I agree to the <a href="#url" class="link-light text-decoration-underline">Privacy Policy.</a>
+                           </p>
+
+                           <div class="text-end">
+                              <button type="submit" value="Submit" class="btn btn-secondary btn-lg">
+                                 <div class="d-flex justify-content-between align-items-center">
+                                    <div class="me-5">Submit</div>
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                 </div>
+                              </button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
                </div>
             </div>
-         </div>
 
-         @@include('./_footer.html')
+            <div class="container-fluid text-bg-light">
+               <div class="container">
+                  <div class="row py-3">
 
-      </main>     
+                     <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                        <div>
+                           <h3 class="display-4">Questions?</h3>
+                           <p class="fs-5">Give us a call at <a href="tel:18008008000">+1800-800-8000</a></p>
+                        </div>
+                     </div>
 
-      @@include('./_foot.html')
+                     <div class="col-12 col-md-6">
+                        <img src="images/question-image.jpg" alt="" class="img-fluid rounded" />
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+
+            @@include('./_footer.html')
+
+         </main>     
+
+         @@include('./_foot.html')
 
    </body>
 </html>
