@@ -12,48 +12,55 @@
 </head>
 
 <body dir="ltr">
-    <div class="header_iner">
-        <a id="skip-to-main-content" href="#main" class="position-absolute"></a>
-        <div id="rangeBox"></div>
-        <header class="headersec">
-            <div class="container">
-                <div id="nav-wrapper" class="hderinr">
-                    <nav id="ddmenu-extra" role="navigation">
-                        <a class="hdrlgo" href="#url">
-                            <img src="images/elastic-dealer-logo-white.png" alt="" />
-                        </a>
-                        <a id="hamburger" role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-label="Open Menu" href="javascript:void(0)">
-                            <span class="line"></span>
-                            <span class="line"></span>
-                            <span class="line"></span>
-                        </a>
-                    </nav>
-                    <div class="hderRght">
-                        <nav id="ddmenu-main" class="ddmenu hdrmnu" role="navigation">
-                            <a id="hamburger-close" role="button" aria-label="Close Menu" href="javascript:void(0)">
-                                <span class="title" aria-hidden="true">Close</span>
-                                <span class="line one"></span>
-                                <span class="line two"></span>
-                            </a>
-                            <ul>
-                                <li class="active"><a href="#url">Home</a></li>
-                                <li><a href="#url">Features</a></li>
-                                <li><a href="#url">Contact Us</a></li>
-                            </ul>
-                        </nav>
-                        <a class="pageBtns" href="#url">Request a Demo</a>
+    <header class="shadow-xl text-bg-primary navbar-main">
+        <nav class="navbar navbar-expand-md py-1 py-md-3">
+            <div class="container d-flex justify-content-between">
+                <a class="navbar-brand text-white" href="~/">
+                    <img src="images/elastic-dealer-logo-white.png" alt="company logo" class="navbar-brand-image" />
+                </a>
+                <div>
+                    <button type="button" class="navbar-toggler border-white" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon border-white"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/features.html">Features</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Products </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="/deal-builder">Deal Builder</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/vehicle-syndication">Vehicle Syndication</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/online-vehicles-listing">Online Vehicles Listing</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/content-management">Content Management</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-info" href="/request-demo">Request a Demo</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </header>
-    </div>
+        </nav>
+        <div id="particles-js"></div>
+    </header>
     <main id="main">
-        <div class="bannerSec inr_Bner">
-            <div id="particles-js"></div>
-        </div>
-        <div class="container my-5">
+        <div class="container mb-3 mt-5">
             <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
+                <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Advantages</li>
                 </ol>
@@ -61,80 +68,69 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="">
-                        <img src="images/cloude_image.png" class="img-fluid" alt="" />
-                    </div>
+                <div class="col-lg-5 d-flex justify-content-center">
+                    <img src="images/cloude_image.png" class="img-fluid" alt="" />
                 </div>
-                <div class="col-lg-7">
-                    <div class="pb-3">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="hexagon feature-node-small text-bg-secondary text-white fs-2">
-                                <span class="icon-Vector"></span>
-                            </div>
-                            <h2 style="flex: 1;" class="text-uppercase fs-2 fw-semibold ms-3 mb-0">High Availability / Cloud Service</h2>
+                <div class="col-lg-7 pb-3">
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <div class="hexagon feature-node-small text-bg-secondary text-white fs-3">
+                            <span class="icon-Vector"></span>
                         </div>
-                        <div class="fs-5 mb-3">
-                            <p>Our app is built on a scalable and robust infrastructure, ensuring reliable performance and high availability. It is highly scalable and unbounded by hardware or geographic location, providing an always-operational and accessible experience. Other benefits include:</p>
-                        </div>
-                        <ul class="fs-5 nav">
-                            <li class="w-50 mb-2">
-                                <i><img src="images/blue_tick.png" alt="" /></i>
-                                <span class="ms-2 mb-0">White-labeled app and infrastructure.</span>
-                            </li>
-                            <li class="w-50 mb-2">
-                                <i><img src="images/blue_tick.png" alt="" /></i>
-                                <span class="ms-2 mb-0">Monitoring and alerts for seamless operations.</span>
-                            </li>
-                            <li class="w-50 mb-2">
-                                <i><img src="images/blue_tick.png" alt="" /></i>
-                                <span class="ms-2 mb-0">Enhanced user experience.</span>
-                            </li>
-                            <li class="w-50 mb-2">
-                                <i><img src="images/blue_tick.png" alt="" /></i>
-                                <span class="ms-2 mb-0">Resilient to software and hardware failures.</span>
-                            </li>
-                        </ul>
-                        <div class="fs-5 mt-2">
-                            <p>In summary, our app offers a reliable and scalable solution that is easy to use and maintain, ensuring a seamless experience for both businesses and their customers.</p>
-                        </div>
+                        <h2 class="text-uppercase fs-2 fw-semibold ms-3 mb-0">High Availability / Cloud Service</h2>
+                    </div>
+                    <div class="mb-3">
+                        <p>Our app is built on a scalable and robust infrastructure, ensuring reliable performance and high availability. It is highly scalable and unbounded by hardware or geographic location, providing an always-operational and accessible experience. Other benefits include:</p>
+                    </div>
+                    <ul class="nav mb-2">
+                        <li class="col-12 col-md-6 mb-2">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span class="ms-2 mb-0">White-labeled app and infrastructure.</span>
+                        </li>
+                        <li class="col-12 col-md-6 mb-2">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span class="ms-2 mb-0">Monitoring and alerts for seamless operations.</span>
+                        </li>
+                        <li class="col-12 col-md-6 mb-2">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span class="ms-2 mb-0">Enhanced user experience.</span>
+                        </li>
+                        <li class="col-12 col-md-6 mb-2">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span class="ms-2 mb-0">Resilient to software and hardware failures.</span>
+                        </li>
+                    </ul>
+                    <div class="">
+                        <p>In summary, our app offers a reliable and scalable solution that is easy to use and maintain, ensuring a seamless experience for both businesses and their customers.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-bg-primary support_pnel">
-            <div class="position-relative py-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="hexagon feature-node-small bg-white fs-2">
-                                    <span class="icon-Vector1 text-secondary"></span>
-                                </div>
-                                <h2 style="flex: 1;" class="text-uppercase fs-2 fw-semibold ms-3 mb-0 text-white">Support & Partnership</h2>
+        <div class="container-fluid g-0 text-bg-primary partnership-container">
+            <div class="row g-0">
+                <div class="col-12 offset-xxl-2 col-xxl-5 p-3 p-sm-4">
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="hexagon feature-node-small bg-white fs-2">
+                                <span class="icon-Vector1 text-secondary"></span>
                             </div>
-                            <div class="fs-5 mb-3">
-                                <p>We strive to be a long-term partner for your business, providing the right level of support to meet your unique needs. Our cloud-based platform offers full access to IT resources without requiring a significant upfront investment, enabling you to establish a long-term partnership without breaking the bank.</p>
-                                <p>We are committed to constantly improving our platform, researching and developing new concepts that we integrate seamlessly with zero upfront fees. We welcome new ideas from our customers, and our team can work with yours to develop tailored solutions for your smooth operation.</p>
-                            </div>
+                            <h2 class="text-uppercase ms-3 mb-0 text-white">Support & Partnership</h2>
                         </div>
-                        <div class="col hand_advange position-absolute top-0 end-0 p-0 d-none d-lg-flex h-100">
-                            <div class="">
-                                <img src="images/partner_hand.png" class="img-fluid h-100 w-100 object-fit-cover" alt="" />
-                            </div>
-                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <p>We strive to be a long-term partner for your business, providing the right level of support to meet your unique needs. Our cloud-based platform offers full access to IT resources without requiring a significant upfront investment, enabling you to establish a long-term partnership without breaking the bank.</p>
+                        <p>We are committed to constantly improving our platform, researching and developing new concepts that we integrate seamlessly with zero upfront fees. We welcome new ideas from our customers, and our team can work with yours to develop tailored solutions for your smooth operation.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="py-5">
             <div class="container">
-                <div class="row">
+                <div class="row d-flex flex-column-reverse flex-lg-row">
                     <div class="col-lg-6">
-                        <div class="px-lg-4">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 my-2">
-                                    <div class="text-bg-light text-center p-4">
+                        <div class="row mb-3 mb-md-0">
+                            <div class="col-lg-6 col-md-6 col-sm-6 my-2">
+                                <div class="card text-bg-light border-0">
+                                    <div class="card-body text-center">
                                         <span class="icon-Solar-Battery fs-1"></span>
                                         <h3 class="fs-3 my-4 fw-semibold">Quis Nostrud</h3>
                                         <div class="fs-5">
@@ -142,8 +138,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 my-2">
-                                    <div class="text-bg-light text-center p-4">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 my-2">
+                                <div class="card text-bg-light border-0">
+                                    <div class="card-body text-center">
                                         <span class="icon-contract41 fs-1"></span>
                                         <h3 class="fs-3 my-4 fw-semibold">Quis Nostrud</h3>
                                         <div class="fs-5">
@@ -155,77 +153,81 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="hexagon feature-node-small text-bg-secondary text-white fs-2">
-                                    <img src="images/advantageIcn.png" alt="">
-                                </div>
-                                <h2 style="flex: 1;" class="text-uppercase fs-2 fw-semibold ms-3 mb-0">Not Upfront Fees</h2>
+                        <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-3">
+                            <div class="hexagon feature-node-small text-bg-secondary text-white fs-2">
+                                <img src="images/advantageIcn.png" alt="">
                             </div>
-                            <div class="fs-5">
-                                <p>At Elastic Dealer, we understand that purchasing and maintaining software can be costly and challenging. That's why we offer a pricing model that does not require any upfront fees, making our robust solutions accessible to businesses of all sizes.</p>
-                                <p>Our pay-as-you-go model eliminates the need for you to invest in software infrastructure, as we take care of regular updates and maintenance. This approach is cost-effective for users as it allows them to pay only for the service they need, rather than purchasing and maintaining their own software and infrastructure.</p>
-                                <p>Unlike other software providers, our pricing model ensures that you only pay for what you use, making our solutions an affordable option for businesses looking to optimize their operations.</p>
-                            </div>
+                            <h2 class="text-uppercase fs-2 ms-3">Not Upfront Fees</h2>
+                        </div>
+                        <div class="mb-3">
+                            <p>At Elastic Dealer, we understand that purchasing and maintaining software can be costly and challenging. That's why we offer a pricing model that does not require any upfront fees, making our robust solutions accessible to businesses of all sizes.</p>
+                            <p>Our pay-as-you-go model eliminates the need for you to invest in software infrastructure, as we take care of regular updates and maintenance. This approach is cost-effective for users as it allows them to pay only for the service they need, rather than purchasing and maintaining their own software and infrastructure.</p>
+                            <p>Unlike other software providers, our pricing model ensures that you only pay for what you use, making our solutions an affordable option for businesses looking to optimize their operations.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="position-relative text-bg-dark" style="background: url(images/footerBg.jpg) no-repeat 0 0; background-size: cover !important;">
-            <div class="position-absolute bottom-0 end-0 d-none d-lg-flex">
-                <img src="images/foter_Car.png" alt="" />
-            </div>
+        <footer class="position-relative text-bg-dark">
             <div class="container-fluid footer-main">
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 pb-3">
-                        <div class="col mb-3 lh-lg">
-                            <h5 class="text-info fw-normal">Company</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Home</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Features</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Pricing</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">FAQs</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">About</a></li>
-                            </ul>
+                <div class="row">
+                    <div class="col-12 col-lg-8 offset-lg-2">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 pt-5 pb-3">
+                            <div class="col mb-3 lh-lg text-center text-md-start">
+                                <h5 class="text-info fw-normal">Company</h5>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">About</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Our Vision</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Privacy Policy</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Terms & Conditions</a></li>
+                                </ul>
+                            </div>
+                            <div class="col mb-3 lh-lg text-center text-md-start">
+                                <h5 class="text-info fw-normal">Features</h5>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Deal Builder</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Online Vehicle Listing</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Vehicle Syndication</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Content Management</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Mobile App</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Single-Sign on</a></li>
+                                </ul>
+                            </div>
+                            <div class="col mb-3 lh-lg text-center text-md-start">
+                                <h5 class="text-info fw-normal">Product</h5>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Elastic Dealer</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Advantages</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Request a demo</a></li>
+                                </ul>
+                            </div>
+                            <div class="col mb-3 px-4 d-flex justify-content-center">
+                                <div>
+                                    <img src="images/elastic-dealer-logo-white.png" class="img-fluid" alt="Company logo" />
+                                </div>
+                            </div>
                         </div>
-                        <div class="col mb-3 lh-lg">
-                            <h5 class="text-info fw-normal">Resources</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Home</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Features</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Pricing</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">FAQs</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">About</a></li>
-                            </ul>
-                        </div>
-                        <div class="col mb-3 lh-lg">
-                            <h5 class="text-info fw-normal">Partners</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Home</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Features</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">Pricing</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">FAQs</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fs-7">About</a></li>
-                            </ul>
-                        </div>
-                        <div class="col mb-3 px-4">
-                            <img src="images/elastic-dealer-logo-white.png" class="img-fluid" alt="Company logo" />
+                        <div class="row border-top py-3">
+                            <div class="col-12 col-md-7 text-center text-md-start">
+                                <p class="text-info mb-0">© 2023 Company, Inc. All rights reserved.</p>
+                            </div>
+                            <div class="col-12 col-md-5">
+                                <ul class="list-unstyled d-flex flex-row mb-0 justify-content-center justify-content-md-end mt-2 mt-md-0">
+                                    <li class="border-end pe-3"><a class="text-info text-decoration-none" href="/privacy">Privacy Policy</a></li>
+                                    <li class="ms-3"><a class="text-info text-decoration-none" href="/terms-conditions">Terms & Conditions</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="d-flex flex-column flex-sm-row justify-content-between py-3 border-top w-75 position-relative z-1">
-                        <p class="text-info mb-0">© 2023 Company, Inc. All rights reserved.</p>
-                        <ul class="list-unstyled d-flex mb-0">
-                            <li class="ms-3 border-end pe-3"><a class="text-info text-decoration-none" href="/privacy">Privacy Policy</a></li>
-                            <li class="ms-3"><a class="text-info text-decoration-none" href="/terms-conditions">Terms & Conditions</a></li>
-                        </ul>
+                    <div class="col-lg-2 d-none d-lg-flex align-items-end justify-content-end">
+                        <img src="images/footer-car.png" alt="" class="img-fluid" />
                     </div>
                 </div>
             </div>
         </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="scripts/site.js"></script>
     <script src="scripts/particles.js"></script>
     <script src="scripts/menu.js"></script>
 </body>

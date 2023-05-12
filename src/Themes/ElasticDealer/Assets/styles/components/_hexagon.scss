@@ -12,7 +12,6 @@
   display: flex;
   align-items: center !important;
   justify-content: center !important;
-  font-size: initial; /* we reset the font-size if we want to add some content */
   clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
 }
 
@@ -34,13 +33,13 @@
 
 @include media-breakpoint-up(sm) {
 
-  .hexagon.feature-node {
+  .hexagon.feature-node, .hexagon.feature-node-small {
     width: 5rem !important;
     height: 5.5rem !important;
   }
   .hexagon.feature-node-small {
-    width: 45px !important;
-    height: 55px !important;
+    width: 3rem !important;
+    height: 3.5rem !important;
   }
 }
 
@@ -51,8 +50,8 @@
     height: 7rem !important;
   }
   .hexagon.feature-node-small {
-    width: 55px !important;
-    height: 65px !important;
+    width: 3.5rem !important;
+    height: 4rem !important;
   }
 }
 
@@ -61,9 +60,5 @@
   .hexagon.feature-node {
     width: 6.5rem !important;
     height: 7.5rem !important;
-  }
-  .hexagon.feature-node-small {
-    width: 60px !important;
-    height: 70px !important;
   }
 }
