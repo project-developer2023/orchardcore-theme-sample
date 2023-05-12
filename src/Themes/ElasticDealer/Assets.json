@@ -12,6 +12,15 @@
   },
   {
     "watch": [
+      "Assets/scripts/menu.js"
+    ],
+    "inputs": [
+      "Assets/scripts/menu.js"
+    ],   
+    "output": "wwwroot/scripts/menu.js"
+  },
+  {
+    "watch": [
       "Assets/styles/components/_flow.scss",
       "Assets/styles/components/_fonts.scss",      
       "Assets/styles/components/_messages.scss",
