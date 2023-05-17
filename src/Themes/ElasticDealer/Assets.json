@@ -1,20 +1,19 @@
 [
   {
     "inputs": [
-      "Assets/scripts/site.js"
-    ],
-    "output": "wwwroot/scripts/site.js"
+      "node_modules/particles.js/particles.js",
+      "Assets/scripts/particles-custom.js"
+    ],   
+    "output": "wwwroot/scripts/particles.js"
   },
   {
     "watch": [
-      "node_modules/particles.js/particles.js",
-      "Assets/scripts/particle.js"
+      "Assets/scripts/menu.js"
     ],
     "inputs": [
-      "node_modules/particles.js/particles.js",
-      "Assets/scripts/particle.js"
+      "Assets/scripts/menu.js"
     ],   
-    "output": "wwwroot/scripts/particles.js"
+    "output": "wwwroot/scripts/menu.js"
   },
   {
     "watch": [
@@ -25,9 +24,12 @@
       "Assets/styles/components/_taxonomy.scss",
       "Assets/styles/components/_utilities.scss",
       "Assets/styles/components/_widgets.scss",
-      "Assets/styles/components/_menu.scss",
+      "Assets/styles/components/_header.scss",
+      "Assets/styles/components/_footer.scss",
       "Assets/styles/components/_hexagon.scss",
-      "Assets/styles/components/_index.scss",
+      "Assets/styles/components/_features.scss",
+      "Assets/styles/components/_demo.scss",
+      "Assets/styles/components/_advantage.scss",
       "Assets/styles/components/_home.scss"
     ],
     "inputs": [

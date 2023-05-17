@@ -1,0 +1,11 @@
+@import '../../../node_modules/bootstrap/scss/mixins/_breakpoints';
+
+@include media-breakpoint-up(lg) {
+
+	.partnership-container {
+		background-image: url('../images/partner_hand.png');
+		background-repeat: no-repeat;
+		background-position: top right;
+		background-size: auto 100%;
+	}
+}

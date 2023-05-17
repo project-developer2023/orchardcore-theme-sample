@@ -16,7 +16,7 @@ $dark:                          #081B26;
 $white:			                #ffffff;
 
 // body
-$body-color:                    #4B4C4E;
+$body-color:                    #6D7384;
 $body-bg:		                $white;
 $font-family-base:              "Lato";
 
@@ -34,9 +34,17 @@ $border-radius-xxl:             2rem !default;
 $input-border-radius:           $border-radius-xxl;
 $input-border-radius-lg:        $border-radius-xxl;
 
-
 // display
 $display-font-weight:           $font-weight-semibold;
+// scss-docs-start display-headings
+$display-font-sizes: (
+  1: 6rem,
+  2: 5.5rem,
+  3: 4.5rem,
+  4: 4rem,
+  5: 3.5rem,
+  6: 3rem
+) !default;
 
 // headings
 $headings-color: 			    $secondary;
@@ -55,7 +63,6 @@ $btn-border-radius-sm:          $border-radius-pill;
 $btn-border-radius-lg:          $border-radius-pill;
 
 // Inputs
-
 $input-border-radius:           $border-radius-pill;
 $input-color:                   #154460;
 $input-placeholder-color:       #aed5ed;
@@ -75,12 +82,9 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px,
   xxl: 1400px,
-
+  xxxl: 1600px,
+  xxxxl: 1800px
 );
-
-
-
-
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "components/_utilities.scss";
@@ -89,34 +93,51 @@ $grid-breakpoints: (
 @import "components/_widgets.scss";
 @import "components/_pager.scss";
 @import "components/_taxonomy.scss";
-@import "components/_menu.scss";
 @import "components/_hexagon.scss";
-@import "components/_index.scss";
+@import "components/_header.scss";
+@import "components/_footer.scss";
+@import "components/_features.scss";
+@import "components/_advantage.scss";
 @import "components/_home.scss";
 
 // Here you can import any custom component as needed.
 
 .text-bg,
 .text-bg-white {
-    color: $body-color !important;
+    color: $body-color;
 }
 
 .bg-light,
 .text-bg-light {
-    color: $body-color !important;
+    color: $body-color;
 }
 
-.bg-dark, .text-bg-dark, .btn-dark {
-    color: $white !important;
+.bg-dark, .btn-dark {
+    color: $white;
 }
 
-.bg-info, .text-bg-info, .btn-info, .text-bg-info a,
-.bg-primary, .text-bg-primary, .btn-primary, .text-bg-primary a,
-.bg-secondary, .text-bg-secondary, .btn-secondary, .text-bg-secondary a,
-.bg-danger, .text-bg-danger, .btn-danger, .text-bg-danger a,
-.bg-success, .text-bg-success, .btn-success, .text-bg-success a,
-.bg-warning, .text-bg-warning, .btn-warning, .text-bg-warning a,
-.bg-dark, .text-bg-dark, .btn-dark, .text-bg-dark a
+.bg-info, .btn-info,
+.bg-primary, .btn-primary,
+.bg-secondary, .btn-secondary,
+.bg-danger, .btn-danger,
+.bg-success, .btn-success,
+.bg-warning, .btn-warning,
+.bg-dark, .btn-dark,
+{
+    color: $white;
+}
+
+.text-bg-info, text-bg-info a,
+.text-bg-secondary, .text-bg-secondary a,
+.text-bg-danger, .text-bg-danger a,
+.text-bg-success, .text-bg-success a,
+.text-bg-warning, .text-bg-warning a,
+.text-bg-dark, .text-bg-dark a
+{
+    color: $white;
+}
+
+.text-bg-primary, .text-bg-primary a,
 {
     color: $white !important;
 }
@@ -129,11 +150,5 @@ $grid-breakpoints: (
 .text-bg-warning a:hover, .text-bg-warning a:focus, .text-bg-warning a:active,
 .text-bg-dark a:hover, .text-bg-dark a:focus, .text-bg-dark a:active
 {
-	color: #eeedf0 !important;
+	color: #eeedf0;
 }
-
-
-
-
-
-

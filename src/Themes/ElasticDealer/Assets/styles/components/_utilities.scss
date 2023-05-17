@@ -35,3 +35,18 @@
 .shadow-xl {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2) !important;
 }
+
+.card-zoom:hover {
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    border-color: transparent !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 10;
+}

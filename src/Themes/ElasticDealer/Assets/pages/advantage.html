@@ -6,149 +6,131 @@
       <title>Site Name</title>
    </head>
    <body dir="ltr">
-      <div class="header_iner">
+      <header class="shadow-xl text-bg-primary navbar-main">
          @@include('./_header.html')
-      </div>
+      </header>
 
+      <main id="main">
 
-<main id="main">
-
-   <div class="bannerSec inr_Bner">
-      <div id="particles-js"></div>
-   </div>
-
-
-   <div class="container my-5">
-      <nav aria-label="breadcrumb">
-         <ol class="breadcrumb">
-           <li class="breadcrumb-item"><a href="#">Home</a></li>
-           <li class="breadcrumb-item active" aria-current="page">Advantages</li>
-         </ol>
-       </nav>
-   </div>
-   
-   
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-5">
-            <div class="">
-               <img src="images/cloude_image.png" class="img-fluid" alt="" />
-            </div>
+         <div class="container mb-3 mt-5">
+            <nav aria-label="breadcrumb">
+               <ol class="breadcrumb mb-0">
+                 <li class="breadcrumb-item"><a href="#">Home</a></li>
+                 <li class="breadcrumb-item active" aria-current="page">Advantages</li>
+               </ol>
+             </nav>
          </div>
-         <div class="col-lg-7">
-            <div class="pb-3">
-               <div class="d-flex align-items-center mb-3">
-                  <div class="hexagon feature-node-small text-bg-secondary text-white fs-2">
-                     <span class="icon-Vector"></span>                     
-                 </div>
-                 <h2 style="flex: 1;" class="text-uppercase fs-2 fw-semibold ms-3 mb-0">High Availability / Cloud Service</h2>
-               </div>
-               <div class="fs-5 mb-3">
-                  <p>Our app is built on a scalable and robust infrastructure, ensuring reliable performance and high availability. It is highly scalable and unbounded by hardware or geographic location, providing an always-operational and accessible experience. Other benefits include:</p>
-               </div>               
-               <ul class="fs-5 nav">
-                  <li class="w-50 mb-2">
-                     <i><img src="images/blue_tick.png" alt="" /></i>
-                     <span class="ms-2 mb-0">White-labeled app and infrastructure.</span>
-                  </li>
-                  <li class="w-50 mb-2">
-                     <i><img src="images/blue_tick.png" alt="" /></i>
-                     <span class="ms-2 mb-0">Monitoring and alerts for seamless operations.</span>
-                  </li>
-                  <li class="w-50 mb-2">
-                     <i><img src="images/blue_tick.png" alt="" /></i>
-                     <span class="ms-2 mb-0">Enhanced user experience.</span>
-                  </li>
-                  <li class="w-50 mb-2">
-                     <i><img src="images/blue_tick.png" alt="" /></i>
-                     <span class="ms-2 mb-0">Resilient to software and hardware failures.</span>
-                  </li>
-               </ul>
-               <div class="fs-5 mt-2">
-                  <p>In summary, our app offers a reliable and scalable solution that is easy to use and maintain, ensuring a seamless experience for both businesses and their customers.</p>
-               </div>               
-            </div>
-         </div>
-      </div>
-   </div>
-
-   <div class="text-bg-primary support_pnel">
-      <div class="position-relative py-5">
+         
          <div class="container">
-            <div class="row">               
-               <div class="col-lg-6">
-                  <div class="d-flex align-items-center mb-3">
-                     <div class="hexagon feature-node-small bg-white fs-2">
-                        <span class="icon-Vector1 text-secondary"></span>
-                     </div>
-                     <h2 style="flex: 1;" class="text-uppercase fs-2 fw-semibold ms-3 mb-0 text-white">Support & Partnership</h2>
+            <div class="row">
+               <div class="col-lg-5 d-flex justify-content-center">
+                  <img src="images/cloude_image.png" class="img-fluid" alt="" />
+               </div>
+               <div class="col-lg-7 pb-3">
+                  <div class="d-flex align-items-center justify-content-center mb-3">
+                     <div class="hexagon feature-node-small text-bg-secondary text-white fs-3">
+                        <span class="icon-Vector"></span>                     
+                    </div>
+                    <h2 class="text-uppercase fs-2 fw-semibold ms-3 mb-0">High Availability / Cloud Service</h2>
                   </div>
-                  <div class="fs-5 mb-3">
+                  <div class="mb-3">
+                     <p>Our app is built on a scalable and robust infrastructure, ensuring reliable performance and high availability. It is highly scalable and unbounded by hardware or geographic location, providing an always-operational and accessible experience. Other benefits include:</p>
+                  </div>               
+                  <ul class="nav mb-2">
+                     <li class="col-12 col-md-6 mb-2">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="ms-2 mb-0">White-labeled app and infrastructure.</span>
+                     </li>
+                     <li class="col-12 col-md-6 mb-2">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="ms-2 mb-0">Monitoring and alerts for seamless operations.</span>
+                     </li>
+                     <li class="col-12 col-md-6 mb-2">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="ms-2 mb-0">Enhanced user experience.</span>
+                     </li>
+                     <li class="col-12 col-md-6 mb-2">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="ms-2 mb-0">Resilient to software and hardware failures.</span>
+                     </li>
+                  </ul>
+                  <div class="">
+                     <p>In summary, our app offers a reliable and scalable solution that is easy to use and maintain, ensuring a seamless experience for both businesses and their customers.</p>
+                  </div>               
+               </div>
+            </div>
+         </div>
+
+         <div class="container-fluid g-0 text-bg-primary partnership-container">
+            <div class="row g-0">               
+               <div class="col-12 offset-xxl-2 col-xxl-5 p-3 p-sm-4">
+                  <div class="d-flex justify-content-center justify-content-lg-start">
+                     <div class="d-flex align-items-center mb-3">
+                        <div class="hexagon feature-node-small bg-white fs-2">
+                           <span class="icon-Vector1 text-secondary"></span>
+                        </div>
+                        <h2 class="text-uppercase ms-3 mb-0 text-white">Support & Partnership</h2>
+                     </div>
+                  </div>
+                  <div class="mb-3">
                      <p>We strive to be a long-term partner for your business, providing the right level of support to meet your unique needs. Our cloud-based platform offers full access to IT resources without requiring a significant upfront investment, enabling you to establish a long-term partnership without breaking the bank.</p>
                      <p>We are committed to constantly improving our platform, researching and developing new concepts that we integrate seamlessly with zero upfront fees. We welcome new ideas from our customers, and our team can work with yours to develop tailored solutions for your smooth operation.</p>
                   </div>             
                </div>
-               <div class="col hand_advange position-absolute top-0 end-0 p-0 d-none d-lg-flex h-100">
-                  <div class="">
-                     <img src="images/partner_hand.png" class="img-fluid h-100 w-100 object-fit-cover" alt="" />
-                  </div>
-               </div>
             </div>          
          </div>
-      </div>
-   </div>
-   
-   <div class="py-5">
-    <div class="container">
-        <div class="row">
-         <div class="col-lg-6">
-            <div class="px-lg-4">
-               <div class="row">
-                   <div class="col-lg-6 col-md-6 col-sm-6 my-2">
-                       <div class="text-bg-light text-center p-4">
-                           <span class="icon-Solar-Battery fs-1"></span>
-                           <h3 class="fs-3 my-4 fw-semibold">Quis Nostrud</h3>
-                           <div class="fs-5">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.</p>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-lg-6 col-md-6 col-sm-6 my-2">
-                       <div class="text-bg-light text-center p-4">
-                           <span class="icon-contract41 fs-1"></span>
-                           <h3 class="fs-3 my-4 fw-semibold">Quis Nostrud</h3>
-                           <div class="fs-5">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.</p>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-         </div>
-         <div class="col-lg-6">
-            <div class="">
-               <div class="d-flex align-items-center mb-3">
-                  <div class="hexagon feature-node-small text-bg-secondary text-white fs-2">
-                     <img src="images/advantageIcn_two.png" alt="">
-                 </div>
-                 <h2 style="flex: 1;" class="text-uppercase fs-2 fw-semibold ms-3 mb-0">Not Upfront Fees</h2>
-               </div>
-               <div class="fs-5">
-                  <p>At Elastic Dealer, we understand that purchasing and maintaining software can be costly and challenging. That's why we offer a pricing model that does not require any upfront fees, making our robust solutions accessible to businesses of all sizes.</p>
-                  <p>Our pay-as-you-go model eliminates the need for you to invest in software infrastructure, as we take care of regular updates and maintenance. This approach is cost-effective for users as it allows them to pay only for the service they need, rather than purchasing and maintaining their own software and infrastructure.</p>
-                  <p>Unlike other software providers, our pricing model ensures that you only pay for what you use, making our solutions an affordable option for businesses looking to optimize their operations.</p>
-               </div>
-            </div>
-         </div>
-        </div>
-    </div>
-   </div>   
-   
-   
-   @@include('./_footer.html')
-   
-   </main> 
+         
+         <div class="py-5">
+          <div class="container">
+              <div class="row d-flex flex-column-reverse flex-lg-row">
+               <div class="col-lg-6">
+                  <div class="row mb-3 mb-md-0">
+ 
+                      <div class="col-lg-6 col-md-6 col-sm-6 my-2">
+                          <div class="card text-bg-light border-0">
+                              <div class="card-body text-center">
+                                 <span class="icon-Solar-Battery fs-1"></span>
+                                 <h3 class="fs-3 my-4 fw-semibold">Quis Nostrud</h3>
+                                 <div class="fs-5">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.</p>
+                                 </div>
+                              </div>
+                          </div>
+                      </div>
 
+                      <div class="col-lg-6 col-md-6 col-sm-6 my-2">
+                          <div class="card text-bg-light border-0">
+                              <div class="card-body text-center">
+                                 <span class="icon-contract41 fs-1"></span>
+                                 <h3 class="fs-3 my-4 fw-semibold">Quis Nostrud</h3>
+                                 <div class="fs-5">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.</p>
+                                 </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-3">
+                     <div class="hexagon feature-node-small text-bg-secondary text-white fs-2">
+                        <img src="images/advantageIcn.png" alt="" class="img-fluid">
+                    </div>
+                    <h2 class="text-uppercase fs-2 ms-3">Not Upfront Fees</h2>
+                  </div>
+                  <div class="mb-3">
+                     <p>At Elastic Dealer, we understand that purchasing and maintaining software can be costly and challenging. That's why we offer a pricing model that does not require any upfront fees, making our robust solutions accessible to businesses of all sizes.</p>
+                     <p>Our pay-as-you-go model eliminates the need for you to invest in software infrastructure, as we take care of regular updates and maintenance. This approach is cost-effective for users as it allows them to pay only for the service they need, rather than purchasing and maintaining their own software and infrastructure.</p>
+                     <p>Unlike other software providers, our pricing model ensures that you only pay for what you use, making our solutions an affordable option for businesses looking to optimize their operations.</p>
+                  </div>
+               </div>
+              </div>
+          </div>
+         </div>   
+         
+         @@include('./_footer.html')
+         
+      </main> 
 
       @@include('./_foot.html')
 
